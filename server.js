@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 // from a cloud data store
 const mockEvents = {
     events: [
-        { title: 'Rock Concert', id: 1, description: 'Something Really Cool', imgsrc: 'https://teamlaarj.s3-us-west-2.amazonaws.com/concert.jpg', url: '#', likes: 2 },
-        { title: 'Parade', id: 2, description: 'Something Even Cooler', imgsrc: 'https://teamlaarj.s3-us-west-2.amazonaws.com/Parade.jpg', url: '#', likes: 3 }
+        { title: 'Rock Concert', id: 1, description: 'Something Really Cool', date: 'Jan 10, 2020', imgsrc: 'https://teamlaarj.s3-us-west-2.amazonaws.com/concert.jpg', url: '#', likes: 2 },
+        { title: 'Parade', id: 2, description: 'Something Even Cooler', date: 'Nov 20, 2020', imgsrc: 'https://teamlaarj.s3-us-west-2.amazonaws.com/Parade.jpg', url: '#', likes: 3 }
     ]
 };
 
